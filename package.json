@@ -10,6 +10,7 @@
     "typescript": "^5"
   },
     "scripts": {
-        "dev" : "bun index.ts"
+        "dev" : "bun index.ts",
+        "test": "bun app-test.test.ts"
     }
 }
