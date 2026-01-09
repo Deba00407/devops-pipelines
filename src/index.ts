@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
         JSON.stringify({
             "message": "Hello there! Welcome to the home page"
         })
-    )
+    );
 });
 
 const port = 3000;

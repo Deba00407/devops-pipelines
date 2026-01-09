@@ -1,6 +1,6 @@
 {
   "name": "devops-pipelines",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -9,8 +9,12 @@
   "peerDependencies": {
     "typescript": "^5"
   },
-    "scripts": {
-        "dev" : "bun index.ts",
-        "test": "bun app-test.test.ts"
-    }
+  "scripts": {
+    "dev": "bun src/index.ts",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0"
+  }
 }
